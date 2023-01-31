@@ -58,3 +58,14 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
     background-color: rgb(246, 246, 246);
 }
+
+.no-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-left: 5px solid red;
+    background-color: rgb(251, 221, 226);
+    color: red;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    text-align: center;
+}
