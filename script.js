@@ -81,7 +81,7 @@ const unsortedTable = [
         Price: 'Free',
     },
     {
-        Institution: 'Le CAFi',
+        Institution: 'CAFi',
         Category: 'Education, after school, summer camps, French language',
         Location: '140 Champlain Street (suites 201, 104 and 102) Moncton',
         Website: '<a href="https://cafi-nb.org/wp2021/english/" target="_blank">https://cafi-nb.org/</a>',
@@ -185,7 +185,7 @@ const unsortedTable = [
         Location: 'nb@snapology.com, Moncton, Fredericton, Saint John',
         Website: '<a href="https://www.snapology.com/location/nb" target="_blank">https://www.snapology.com/</a>',
         Phone: '5069880086',
-        Notes: 'Fun themed programs using LEGO® bricks, Robotics, Movie-Making, Drones and Video Game Design. Offers field trips and camps.',
+        Notes: 'Fun themed programs using LEGO® bricks, Robotics, Movie-Making, Drones and Video Game Design. Offers field trips and camps. Locations: Moncton, Fredericton, Saint Jhon',
         Price: 'Paid',
     },
     {
@@ -290,7 +290,7 @@ const unsortedTable = [
     {
         Institution: 'Acuatic and sports Centre',
         Category: 'Swimming Classes',
-        Location: '111 Aquatique Street, Dieppe NB',
+        Location: '111 Aquatique Street, Dieppe Greater Moncton NB',
         Website: '<a href="https://www.dieppe.ca/en/explorer-et-samuser/cours-de-natation.aspx" target="_blank">https://www.dieppe.ca/</a>',
         Phone: '(506)8777881',
         Notes: 'Preschool swimming lessons <br>Swim For Life swimming lessons <br> Fitness Swimmer lessons <br>Teen/adult swimming lessons<br>Young lifeguard club<br>Private swimming lessons',
@@ -299,7 +299,7 @@ const unsortedTable = [
     {
         Institution: 'La Escuela Riverview',
         Category: 'March Break camp',
-        Location: '',
+        Location: 'Grater Moncton',
         Website: '<a href="https://m.facebook.com/story.php?story_fbid=pfbid08LgsofW1vp79z5HrtgaJNiADovKFZcwuiqcnzx4em5rJLc6MfhXoLno4j8wPyiURl&id=100088824202781&mibextid=qC1gEa" target="_blank">La Escuela Riverview</a>',
         Phone: '',
         Notes: 'March 6th - 10th Camp',
@@ -459,7 +459,7 @@ const unsortedTable = [
         Price: 'Financial assistance',
     },
     {
-        Institution: 'Canadian Tire Jump Start Program',
+        Institution: 'Canadian Tire Jump Start Program Moncton',
         Category: 'Financial Assistance ',
         Location: 'Canadian Tire Jumpstart Charities',
         Website: '<a href="https://jumpstart.canadiantire.ca/pages/individual-child-grants" target="_blank">https://jumpstart.canadiantire.ca/</a>',
@@ -692,7 +692,33 @@ const unsortedTable = [
         Notes: 'Summer camps for elementary, middle, and high school students',
         Price: 'Paid',
     },
-
+    {
+        Institution: 'Town of Woodstock Recreation Programs',
+        Category: 'Recreation , sports',
+        Location: '105 Connell Park Road, Woodstock NB',
+        Website: '<a href="https://town.woodstock.nb.ca/m/ayr-motor-centre/youth-programs#" target="_blank">https://town.woodstock.nb.ca/</a>',
+        Phone: '506-325-4671',
+        Notes: 'Sports',
+        Price: 'Free',
+    },
+    {
+        Institution: 'Western valley Recreation Association',
+        Category: 'Recreation , sports',
+        Location: '105 Connell Park Road Woodstock, NB E7M 1M5',
+        Website: '<a href="https://www.wvra.ca/events/" target="_blank">https://www.wvra.ca/</a>',
+        Phone: '325-4303',
+        Notes: 'Recreation and sports. Financial assistance P.R.O Kids',
+        Price: 'Free',
+    },
+    {
+        Institution: 'Valley Family Resource Centre',
+        Category: 'Recreation , sports',
+        Location: '110 Richmond St # 1 Woodstock, NB, Canada E7M 2N9',
+        Website: '<a href="https://www.vfrc.ca/our-programs" target="_blank">https://www.vfrc.ca/</a>',
+        Phone: '(506)325-2299',
+        Notes: 'Literacy, recreation and sport programs for babies, children and youth',
+        Price: 'Free',
+    },
 ]
 const table = unsortedTable.sort((a, b) => {
     let fa = a.Institution.toLowerCase(),
