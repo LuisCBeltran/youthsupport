@@ -117,7 +117,7 @@ const unsortedTable = [
         Price: 'Paid',
     },
     {
-        Institution: 'Bgc Greater Fredericton',
+        Institution: 'BGC Greater Fredericton',
         Category: 'Education, new comers services, child care, entrepreneurial labs',
         Location: 'SKYLINE ACRES <br>499 Canterbury Drive, Fredericton, NB, E3B 4M4 <br><br></>DEVON AND GIBSON NEILL MEMORIAL <br>Devon: 248 Medley Street, Fredericton, NB, E3A 5G9 <br><br></>Gibson Neill: 67 Wyngate Dr., Fredericton, NB E3A 6G1',
         Website: '<a href="https://bgcfred.com/" target="_blank">Website Link</a>',
